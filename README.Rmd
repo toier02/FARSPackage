@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 # FARSPackage
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/toier02/FARSPackage.svg?branch=master)](https://travis-ci.org/toier02/FARSPackage)
 <!-- badges: end -->
 
 FARSPackage is an example package made using functions provided by Coursera from the course Building R Packages. It reads and plots Fatality Analysis Reporting System (FARS) data.
