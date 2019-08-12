@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# FARSPackage
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+FARSPackage is an example package made using functions provided by Coursera from the course Building R Packages. It reads and plots Fatality Analysis Reporting System (FARS) data.
+
+## Installation
+
+You can install the released version of FARSPackage from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("FARSPackage")
+```

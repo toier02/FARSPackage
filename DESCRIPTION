@@ -1,0 +1,28 @@
+Package: FARSPackage
+Title: Fatality Analysis Reporting System (FARS) Package
+Version: 0.0.0.9000
+Date: 2019-8-11
+Depends: R (>= 3.0.0)
+Authors@R: 
+    person(given = "Akshay",
+           family = "Bhat",
+           role = c("aut", "cre"),
+           email = "toiertoier02@gmail.com",)
+Description: The data and the functions were provided by Coursera, as a part of the peer-graded assessment for the course Building R Packages. It reads FARS data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  maps,
+  readr,
+  tidyr,
+  magrittr
+Suggests: 
+  knitr,
+  rmarkdown,
+  testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+URL: https://github.com/toier02/FARSPackage
+BugReports: https://github.com/toier02/FARSPackage/issues
